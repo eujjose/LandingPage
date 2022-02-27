@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&family=Righteous&family=Sarala&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #001727 16.62%, #002c4bce 85.61%);
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.logo {
+  height: 72px;
+}
+
+.cabecalho-geral {
+  display: flex;
+  gap: 30px;
+}
+
+.cabecalho-itens {
+  font-family: 'Sarala', sans-serif;
+  color: #000822;
+  font-weight: 400;
+  font-size: 19px;
+}
+
+.conteudo {
+  border-top: 0.4px solid #bdbdbd;
+  margin-bottom: 48px;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.front-end {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 60px;
+}
+
+.texto-front {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.botao-contato {
+  background-color: #000000;
+  width: 185px;
+  height: 65px;
+  border-radius: 20px;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  font-weight: 400px;
+  font-family: 'Sarala', sans-serif;
+  font-size: 24px;
+  color: #cecdcd;
+}
+
+.botao-contato:hover {
+  background-color: #001a2c;
+}
+
+.imagem-2 {
+  height: 430px;
+}
+
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 45px;
+}
+
+.conteudo-secundario-escrito {
+  padding-top: 48px;
+  border-top: 0.4px solid #cecdcd;
+  font-weight: 400;
+  font-family: 'Righteous', cursive;
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+
+.msg2 {
+  display: flex;
+  font-weight: 300;
+  font-size: 14px;
+  font-family: 'Sarala', sans-serif;
+}
+
+.imagem-final {
+  position: absolute;
+  width: 495px;
+  height: 99px;
+  left: 789px;
+  top: 956px;
+}
+
+.rodape {
+  padding: 32px;
+  border-top: 0.4px solid #cecdcd;
+}
+
+.imagem-00 {
+  display: block;
+  margin: 0 auto;
+  height: 45px;
+}
